@@ -1,0 +1,8 @@
+id: gulf
+name: Gulf food importer (sample)
+role: importer
+offices: [Jebel Ali]
+markets: [AE, SA, OM, KW]
+products: [pasta, tomato]
+origin: IT
+notes: Sample resale profile. Not a real company.

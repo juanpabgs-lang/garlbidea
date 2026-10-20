@@ -1,0 +1,14 @@
+id: garleb
+name: GARLEB
+role: pasta trading house
+offices: [Dubai, Beirut]
+group: Garofalo / Ebro Foods
+markets: [LB, AE, SA, KW, QA, OM, BH, KE, TZ, UG, RW, ET, SO, DJ]
+adjacent: [SY, IQ, JO]
+products: [pasta, semolina, tomato]
+origin: IT
+invoice_ccy: EUR
+revenue_ccy: [USD, AED, SAR, KES]
+notes: >
+  Demo profile built only from the public brief. No GARLEB files, books or counterparties.
+  They sell Italian pasta into Lebanon, the Gulf and East Africa and buy semolina and tomato sauce.
