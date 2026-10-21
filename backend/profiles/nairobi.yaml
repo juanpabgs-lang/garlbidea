@@ -1,0 +1,8 @@
+id: nairobi
+name: Nairobi dry-goods distributor (sample)
+role: importer / distributor
+offices: [Nairobi]
+markets: [KE, UG, TZ, RW]
+products: [pasta]
+origin: mixed
+notes: Sample resale profile. Not a real company.

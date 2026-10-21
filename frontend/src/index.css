@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Iowan Old Style", Palatino, "Palatino Linotype", Georgia, serif;
+  --font-sans: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --color-cream: #f4efe6;
+  --color-paper: #fffdf8;
+  --color-ink: #1c1916;
+  --color-muted: #6b6358;
+  --color-line: #ddd4c6;
+  --color-rust: #8c2f1b;
+  --color-gold: #b6894c;
+  --color-sea: #1f4b5c;
+  --color-ok: #2f6b4f;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  background: #f4efe6;
+  color: #1c1916;
+  font-family: "Segoe UI", "Helvetica Neue", system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+.serif {
+  font-family: var(--font-serif);
+}
+
+a {
+  color: inherit;
+}
+
+.card {
+  background: var(--color-paper);
+  border: 1px solid var(--color-line);
+  border-radius: 2px;
+}
+
+@media print {
+  nav,
+  aside,
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "GARLEB Desk",
+  "install": "cd backend && uv sync --group dev; cd ../frontend && npm install",
+  "start": "./scripts/dev.sh",
+  "ports": [
+    { "name": "GARLEB Desk", "port": 5171 },
+    { "name": "GARLEB API", "port": 8011 }
+  ]
+}
